@@ -786,8 +786,9 @@ form .button {
     .container-column7 {
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
-        max-width: 100;
+        max-width: 100%;
     }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -808,6 +809,10 @@ form .button {
 
     .container-column2 {
         width: 100%;
+    }
+
+    .contact-form .section-button .button {
+        width: 40%;
     }
 }
 
@@ -831,7 +836,7 @@ form .button {
     .container-column7 {
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
-        max-width: 100;
+        max-width: 100%;
     }
 
     .container-column10 {
@@ -840,11 +845,16 @@ form .button {
         width: auto;
         max-width: 100%;
     }
+
 }
 
 @media screen and (max-width: 767px) {
     .menu .navbar-collapse {
         max-height: 80vh;
+    }
+
+    .contact-form .section-button .button {
+        width: 40%;
     }
 }
 
@@ -879,6 +889,10 @@ form .button {
 
     .menu .navbar-collapse {
         max-height: 93.5vh;
+    }
+
+    .contact-form .section-button .button {
+        width: 40%;
     }
 }
 
@@ -943,7 +957,7 @@ form .button {
     .container-column7 {
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
-        max-width: 100;
+        max-width: 100%;
     }
 
     .container-column11 {
