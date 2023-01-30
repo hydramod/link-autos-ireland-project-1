@@ -290,6 +290,18 @@ input {
 .intro-home {
     background-image: url("../images/home-background.jpg");
     background-attachment: fixed;
+    animation-name: home-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes home-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
 }
 
 .fullscreen {
