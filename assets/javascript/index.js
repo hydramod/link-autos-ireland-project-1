@@ -34,3 +34,30 @@ form.addEventListener("submit", (event) => {
     form.reset();
   }, 10000);
 });
+
+//**smooth scrolling**//
+
+// Select all links with "#" href
+var links = document.querySelectorAll('a[href^="#"]');
+
+// Iterate through the links
+for (var i = 0; i < links.length; i++) {
+  var link = links[i];
+
+  // Add click event listener to each link
+  link.addEventListener("click", function (event) {
+    event.preventDefault();
+
+    // Get the target element's id
+    var targetId = this.getAttribute("href");
+    var target = document.querySelector(targetId);
+
+    // Animate the scroll to the target element
+    var scrollOptions = {
+      left: 0,
+      top: target.getBoundingClientRect().top + window.pageYOffset,
+      behavior: "smooth"
+    };
+    window.scrollTo(scrollOptions);
+  });
+}
