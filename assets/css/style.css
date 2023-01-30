@@ -771,3 +771,190 @@ form .button {
 .footer .media-container-row .copyright p {
     width: 100%;
 }
+
+@media screen and (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .container-column9 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .container-column7 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .font-format-1 {
+        font-size: 0.96rem;
+        font-size: calc(1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
+        line-height: calc(1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
+    }
+
+    .footer .media-container-row .social-list {
+        -webkit-justify-content: center;
+        justify-content: center;
+    }
+
+    .container-row {
+        flex-direction: column;
+    }
+
+    .container-column2 {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container-column4 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .container {
+        max-width: 720px;
+    }
+
+    .container-column8 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .container-column7 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100;
+    }
+
+    .container-column10 {
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        width: auto;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .menu .navbar-collapse {
+        max-height: 80vh;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .showroom .item-wrapper .item-content,
+    .bmw-video .item-wrapper .item-content {
+        padding: 1rem 1rem 0;
+    }
+
+    .showroom .item-wrapper .item-footer,
+    .bmw-video .item-wrapper .item-footer {
+        padding: 0 1rem 1rem;
+    }
+
+    .navbar-expand>.container,
+    .navbar-expand>.container-fluid {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .top .navbar .navbar-brand {
+        flex-shrink: initial;
+        flex-basis: auto;
+        word-break: break-word;
+        padding-right: 2rem;
+    }
+
+    .top .navbar .navbar-toggler {
+        flex-basis: auto;
+    }
+
+    .menu .navbar-collapse {
+        max-height: 93.5vh;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .showroom .item-wrapper .item-content,
+    .bmw-video .item-wrapper .item-content {
+        padding: 2rem 2rem 0;
+    }
+
+    .showroom .item-wrapper .item-footer,
+    .bmw-video .item-wrapper .item-footer {
+        padding: 0 2rem 2rem;
+    }
+
+    .container-row>[class*=container-column] {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .container {
+        padding-left: 16px;
+        padding-right: 16px;
+        max-width: 960px;
+    }
+
+    .container-row {
+        margin-left: -16px;
+        margin-right: -16px;
+    }
+
+    .container-column5 {
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        max-width: 100%;
+    }
+
+    .container-column2 {
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+
+    .container-column3 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+
+    .offset-container {
+        margin-left: 8.333333%;
+    }
+
+    .container-column6 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .container-column7 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100;
+    }
+
+    .container-column11 {
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
