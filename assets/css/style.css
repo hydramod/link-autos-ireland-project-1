@@ -562,14 +562,14 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
 .benz-video {
     padding-top: 10rem;
     padding-bottom: 10rem;
-    background-image: url("images/sl-background.jpg");
+    background-image: url("../images/sl-background.jpg");
     background-attachment: fixed;
 }
 
 .a5-video {
     padding-top: 10rem;
     padding-bottom: 10rem;
-    background-image: url("images/a5sportback-background.jpg");
+    background-image: url("../images/a5sportback-background.jpg");
     background-attachment: fixed;
 }
 
