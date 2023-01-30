@@ -25,6 +25,8 @@ section {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 section,
@@ -566,8 +568,8 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
 }
 
 .black-seperator {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
     background-color: black;
 }
 
