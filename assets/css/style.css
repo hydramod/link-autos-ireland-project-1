@@ -288,7 +288,7 @@ input {
 }
 
 .intro-home {
-    background-image: url("assets/images/home-background.jpg");
+    background-image: url("../images/home-background.jpg");
     background-attachment: fixed;
 }
 
@@ -430,4 +430,94 @@ p {
 
 .bottom-margin-0 {
     margin-bottom: 0 !important;
+}
+
+.top-margin {
+    margin-top: 2rem !important;
+}
+
+.showroom .item {
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.showroom .item-wrapper {
+    position: relative;
+    border-radius: 4px;
+    background: white;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.item-wrapper {
+    overflow: hidden;
+}
+
+.showroom img,
+.showroom .item-img {
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.showroom .item-title {
+    text-align: left;
+}
+
+.showroom .showroom-text .section-button {
+    text-align: left;
+}
+
+.top-margin2 {
+    margin-top: 1rem !important;
+}
+
+a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption) {
+    position: relative;
+    background-size: 10000px 2px;
+    background-repeat: no-repeat;
+    background-position: 0px 1.2em;
+    background-position: -10000px 1.2em;
+}
+
+.text-link {
+    color: blue !important;
+}
+
+.showroom .section-button {
+    margin-top: auto !important;
+}
+
+.section-button {
+    margin-left: -0.6rem;
+    margin-right: -0.6rem;
+    font-size: 0;
+}
+
+.showroom .item:focus,
+.showroom span:focus {
+    outline: none;
+}
+
+.button-showroom {
+    background-color: blue !important;
+    border-color: blue !important;
+    color: white !important;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%);
+}
+
+.button {
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px;
+    font-weight: 600;
+    border-width: 1px;
+    font-style: normal;
+    margin: 0.6rem 0.6rem;
+    white-space: normal;
+    transition: all 0.2s ease-in-out;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    word-break: break-word;
 }
