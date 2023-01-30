@@ -577,14 +577,6 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
     flex-direction: row-reverse;
 }
 
-.bmw-video .video-block,
-.benz-video .video-block,
-.a5-video .video-block {
-    border: 1px solid white;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
 .contact-form {
     padding-top: 5rem;
     padding-bottom: 5rem;
