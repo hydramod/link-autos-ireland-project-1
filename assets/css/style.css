@@ -584,3 +584,112 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
     border-radius: 5px;
     overflow: hidden;
 }
+
+.contact-form {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: black;
+}
+
+.contact-form .justify-content-center {
+    align-items: center;
+}
+
+form .container-row {
+    margin-left: -0.6rem;
+    margin-right: -0.6rem;
+}
+
+form .container-row [class*=col] {
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+}
+
+.alert-success {
+    background-color: green;
+}
+
+.alert {
+    color: white;
+    border-radius: 0;
+    border: 0;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 1.875rem;
+    padding: 1.25rem;
+    position: relative;
+    text-align: center;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+.alert-danger {
+    background-color: orange;
+}
+
+.bottom-margin-4 {
+    margin-bottom: 2rem !important;
+}
+
+.form-input {
+    margin-bottom: 1.2rem;
+}
+
+.form-input-field {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.form-input-field,
+form .button {
+    min-height: 48px;
+}
+
+.form-input-field {
+    background-color: white;
+    background-clip: border-box;
+    color: black;
+    line-height: 1rem !important;
+    height: auto;
+    padding: 0.6rem 1.2rem;
+    transition: border-color 0.25s ease 0s;
+    border: 1px solid transparent !important;
+    border-radius: 4px;
+    box-shadow: rgb(0 0 0 / 7%) 0px 1px 1px 0px, rgb(0 0 0 / 7%) 0px 1px 3px 0px, rgb(0 0 0 / 3%) 0px 0px 0px 1px;
+}
+
+.contact-form .section-button {
+    display: flex;
+    margin-bottom: 1.2rem;
+    width: 100%;
+}
+
+.contact-form .section-button .button {
+    width: 100%;
+}
+
+.button:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.submit-contact-button,
+.submit-contact-button:active {
+    background-color: red !important;
+    border-color: red !important;
+    color: white !important;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%);
+    font-size: medium;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.contact-img {
+    width: 100% !important;
+    border: 1px solid white;
+    border-radius: 5px;
+}
