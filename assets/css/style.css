@@ -558,3 +558,29 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
     padding-bottom: 5rem;
     background-color: black;
 }
+
+.benz-video {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background-image: url("images/sl-background.jpg");
+    background-attachment: fixed;
+}
+
+.a5-video {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background-image: url("images/a5sportback-background.jpg");
+    background-attachment: fixed;
+}
+
+.benz-video .container-row {
+    flex-direction: row-reverse;
+}
+
+.bmw-video .video-block,
+.benz-video .video-block,
+.a5-video .video-block {
+    border: 1px solid white;
+    border-radius: 5px;
+    overflow: hidden;
+}
