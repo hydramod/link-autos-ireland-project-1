@@ -425,9 +425,8 @@ img {
 }
 
 h1,
-h3,
-h4,
-h5 {
+h2,
+h3 {
     margin-top: 0;
 }
 
@@ -453,6 +452,10 @@ strong {
 p {
     margin-top: 0;
     margin-bottom: 1rem;
+}
+
+.showroom {
+    scroll-margin-top: 10px;
 }
 
 .showroom {
@@ -742,7 +745,6 @@ form .button {
     box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%);
     font-size: medium;
 }
-
 
 label, .text-white {
     color: white !important;
