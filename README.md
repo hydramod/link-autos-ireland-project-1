@@ -41,6 +41,8 @@ The Footer is a feature that appears on all three pages of a website and is full
 
 ![Link Autos Ireland Footer](/docs/images/footer.png)
 
+A favicon is a small icon that appears on all tabs of a website. It serves as a visual identifier and allows for easy recognition of the website when multiple tabs are open in a browser. A well-designed favicon can enhance the overall user experience and make it easier to find the desired tab among many open ones.
+
 - Favicon
   - Appears on all tabs site wide
   - Allows for easy identification when multiple tabs are open
@@ -49,10 +51,14 @@ The Footer is a feature that appears on all three pages of a website and is full
 
 ![Link Autos Ireland NavBar](/docs/images/favicon2.png)
 
+A 404 page is an error page that appears when a user tries to access a broken link or a page that doesn't exist on a website. It's a common experience for internet users and serves as a way to inform them that the requested content cannot be found. The purpose of a 404 page is to provide the user with a clear indication that the content they are seeking is unavailable and to offer them options for navigation or finding what they are looking for on the website. A well-designed 404 page can provide a better user experience and help minimize frustration for visitors who encounter this error.
+
 - 404 Page
   - Appears when broken links are used or if a page does not exist.
 
 **Home Page**
+
+A landing page is the first page that a user sees when they visit a website. It often features a striking image and text that is designed to grab the user's attention and convey key information about the website's purpose. In the case of Link Autos Ireland, the landing page features an image of a luxury yet affordable sports car with a dark overlay and a zoom animation upon landing. The accompanying text is a short introduction that summarizes what the website is all about. The dynamic design and animation make the text stand out and encourage the user to read it, which helps to set the tone for the rest of their experience on the site.
 
 - Landing page image and text.
   - This is an image of a luxury but affordable sports car with a dark overlay.
@@ -62,6 +68,8 @@ The Footer is a feature that appears on all three pages of a website and is full
 
   ![Link Autos Ireland Landing Page](/docs/images/landing%20page.png)
 
+  The values section of the Link Autos Ireland homepage is a crucial part of the website's design and messaging. It briefly summarizes the core values that the company stands by, helping to establish a clear brand identity and connect with potential customers. Each core value is accompanied by a high-quality image that reinforces the message and adds visual interest. The values section is placed directly beneath the landing page, making it easy for visitors to access and understand the company's priorities. By clearly communicating its values, Link Autos Ireland sets itself apart from its competitors and helps to build trust with potential customers.
+
   - Values section
     - Briefly summerises core values that link autos stands by
     - high quality image to go with each core value section
@@ -70,6 +78,8 @@ The Footer is a feature that appears on all three pages of a website and is full
   ![Link Autos Ireland Landing Page](/docs/images/values.png)
 
 **Showroom gallery**
+
+The showroom gallery page of Link Autos Ireland is a comprehensive resource for anyone interested in learning about the company's offerings. It is divided into two sections: the pictures section and the video section. The pictures section includes short descriptions of each car along with a clickable button that directs to related videos and information. The design is fully responsive, ensuring an optimal user experience on any device. The video section offers in-depth video reviews of each car and provides detailed information about their features. The background image changes according to which car review is being viewed, adding a visual element to the experience. With its combination of visual appeal and informative content, the showroom gallery page is an essential resource for anyone considering a purchase from Link Autos Ireland.
 
 The show room gallery has 2 parts:
 
@@ -91,9 +101,13 @@ The show room gallery has 2 parts:
 
 **Contact Page**
 
+The contact page features a full responsive contact form that provides a success message upon correctly filling out the form, powered by JavaScript. In case of failure, there is also a failure message displayed, again powered by JavaScript. To ensure all necessary information is provided, the form includes prompts to indicate any missing input fields. The background of the page features an image of Dublin with an overlay, and a foreground image of a person using a phone has been added to add some visual interest and to prevent the page from looking empty.
+
   - Contact form
   - Full responsive
-  - Success message upon filling out teh form correctly, powered by javascript
+  - Success message upon filling out the form correctly, powered by javascript
+  - failure message, powered by javascript
+  - prompts to indicate to the user that there is missing information from the input fields.
 
 ![Link Autos Ireland Landing Page](/docs/images/contact%20form%20test.png)
 
