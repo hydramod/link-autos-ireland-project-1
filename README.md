@@ -56,6 +56,8 @@ A 404 page is an error page that appears when a user tries to access a broken li
 - 404 Page
   - Appears when broken links are used or if a page does not exist.
 
+![Link Autos Ireland NavBar](/docs/images/404%20not%20found.png)
+
 **Home Page**
 
 A landing page is the first page that a user sees when they visit a website. It often features a striking image and text that is designed to grab the user's attention and convey key information about the website's purpose. In the case of Link Autos Ireland, the landing page features an image of a luxury yet affordable sports car with a dark overlay and a zoom animation upon landing. The accompanying text is a short introduction that summarizes what the website is all about. The dynamic design and animation make the text stand out and encourage the user to read it, which helps to set the tone for the rest of their experience on the site.
