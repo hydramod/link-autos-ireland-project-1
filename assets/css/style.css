@@ -306,12 +306,12 @@ input {
 }
 
 .notfound > a {
-    color: white;
+    color: white !important;
     text-decoration: none;
 }
 
 .notfound > a:hover {
-    color: red
+    color: red !important;
 }
 
 @keyframes home-zoom {
