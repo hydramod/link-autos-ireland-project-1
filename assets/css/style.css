@@ -301,6 +301,7 @@ input {
     from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.1);
     }
@@ -363,11 +364,39 @@ input {
 .container-column8,
 .container-column9,
 .container-column10,
-.container-column11 {
+.container-column11,
+.container-column12 {
     position: relative;
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
+}
+
+.core-values {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: black;
+}
+
+.core-values .image-wrapper {
+    margin-bottom: 1rem;
+}
+
+.core-values img {
+    width: 100%;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.core-values .section-title {
+    color: white;
+}
+
+.core-values .container-row-reverse {
+    flex-direction: row-reverse;
 }
 
 .intro-home .section-title,
@@ -594,7 +623,8 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
 .contact-form {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: black;
+    background-image: url("../images/dublin.jpg");
+    background-attachment: fixed;
 }
 
 .contact-form .justify-content-center {
@@ -900,6 +930,10 @@ form .button {
     .contact-form .section-button .button {
         width: 40%;
     }
+
+    .core-values .image-wrapper {
+        margin-bottom: 1rem;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -970,6 +1004,10 @@ form .button {
         -ms-flex: 0 0 58.333333%;
         flex: 0 0 58.333333%;
         max-width: 58.333333%;
+    }
+
+    .core-values .text-wrapper {
+        padding: 2rem;
     }
 }
 
