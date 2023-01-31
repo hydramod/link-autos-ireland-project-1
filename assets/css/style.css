@@ -290,7 +290,7 @@ input {
 }
 
 .intro-home {
-    background-image: url("../images/home-background.jpg");
+    background-image: url("../images/home-background.webp");
     background-attachment: fixed;
     animation-name: home-zoom;
     animation-duration: 5s;
@@ -591,7 +591,7 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
 .bmw-video {
     padding-top: 10rem;
     padding-bottom: 10rem;
-    background-image: url("../images/z4-background.jpg");
+    background-image: url("../images/z4-background.webp");
     background-attachment: fixed;
 }
 
@@ -628,14 +628,14 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
 .benz-video {
     padding-top: 10rem;
     padding-bottom: 10rem;
-    background-image: url("../images/sl-background.jpg");
+    background-image: url("../images/sl-background.webp");
     background-attachment: fixed;
 }
 
 .a5-video {
     padding-top: 10rem;
     padding-bottom: 10rem;
-    background-image: url("../images/a5sportback-background.jpg");
+    background-image: url("../images/a5sportback-background.webp");
     background-attachment: fixed;
 }
 
@@ -646,7 +646,7 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
 .contact-form {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-image: url("../images/dublin.jpg");
+    background-image: url("../images/dublin.webp");
     background-attachment: fixed;
 }
 
