@@ -305,6 +305,15 @@ input {
     animation-fill-mode: forwards;
 }
 
+.notfound > a {
+    color: white;
+    text-decoration: none;
+}
+
+.notfound > a:hover {
+    color: red
+}
+
 @keyframes home-zoom {
     from {
         transform: scale(1);
