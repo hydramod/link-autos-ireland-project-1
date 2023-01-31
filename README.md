@@ -8,9 +8,12 @@ Link Autos Ireland is a car dealership located in Ireland, offering a wide range
 
 **Site Wide**
 
+The Navigation Bar is a prominent feature on all three pages of a website. It is designed to be fully responsive, with a collapsable hamburger menu powered by JavaScript to provide smooth functionality. The navigation bar includes links to the Home page, Showroom, and Contact page, and is fixed at the top of the page for easy access. This ensures seamless navigation across all devices without the need to constantly use the back button, making it a convenient tool for users.
+
 - Navigation Bar
   - Featured on all three pages
-  - Full responsive, collapsable hamburger menu, javascript provides the functionality.
+  - Full responsive
+  - collapsable hamburger menu
   - Includes links to:
     - Home
     - Showroom
@@ -19,6 +22,8 @@ Link Autos Ireland is a car dealership located in Ireland, offering a wide range
   - Allows for seamless navigation across all devices without using the back button
 
 ![Link Autos Ireland NavBar](/docs/images/link%20autos%20navbar.png)
+
+The Footer is a feature that appears on all three pages of a website and is fully responsive. It includes links to the Home, Showroom, and Contact pages, as well as social links for Twitter, Facebook, and Instagram that open in a new tab when clicked. The footer appears when the user scrolls to the bottom of any page, providing convenient access to essential information. The links in the footer allow for seamless navigation across all devices, eliminating the need to constantly use the back button.
 
 - Footer
   - Featured on all three pages
