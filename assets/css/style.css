@@ -743,7 +743,8 @@ form .button {
     font-size: medium;
 }
 
-.text-white {
+
+label, .text-white {
     color: white !important;
 }
 
