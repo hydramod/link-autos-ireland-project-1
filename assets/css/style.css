@@ -297,6 +297,14 @@ input {
     animation-fill-mode: forwards;
 }
 
+.notfound {
+    background-image: url("../images/404-lost.webp");
+    background-attachment: fixed;
+    animation-name: home-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
 @keyframes home-zoom {
     from {
         transform: scale(1);
