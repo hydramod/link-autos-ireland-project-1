@@ -8,9 +8,10 @@ Link Autos Ireland is a car dealership located in Ireland, offering a wide range
 
 **Site Wide**
 
+- Navigation Bar
+
 The Navigation Bar is a prominent feature on all three pages of a website. It is designed to be fully responsive, with a collapsable hamburger menu powered by JavaScript to provide smooth functionality. The navigation bar includes links to the Home page, Showroom, and Contact page, and is fixed at the top of the page for easy access. This ensures seamless navigation across all devices without the need to constantly use the back button, making it a convenient tool for users.
 
-- Navigation Bar
   - Featured on all three pages
   - Full responsive
   - collapsable hamburger menu
@@ -23,9 +24,10 @@ The Navigation Bar is a prominent feature on all three pages of a website. It is
 
 ![Link Autos Ireland NavBar](/docs/images/link%20autos%20navbar.png)
 
+- Footer
+
 The Footer is a feature that appears on all three pages of a website and is fully responsive. It includes links to the Home, Showroom, and Contact pages, as well as social links for Twitter, Facebook, and Instagram that open in a new tab when clicked. The footer appears when the user scrolls to the bottom of any page, providing convenient access to essential information. The links in the footer allow for seamless navigation across all devices, eliminating the need to constantly use the back button.
 
-- Footer
   - Featured on all three pages
   - Full responsive
   - Includes links to:
@@ -41,9 +43,10 @@ The Footer is a feature that appears on all three pages of a website and is full
 
 ![Link Autos Ireland Footer](/docs/images/footer.png)
 
+- Favicon
+
 A favicon is a small icon that appears on all tabs of a website. It serves as a visual identifier and allows for easy recognition of the website when multiple tabs are open in a browser. A well-designed favicon can enhance the overall user experience and make it easier to find the desired tab among many open ones.
 
-- Favicon
   - Appears on all tabs site wide
   - Allows for easy identification when multiple tabs are open
 
@@ -51,18 +54,20 @@ A favicon is a small icon that appears on all tabs of a website. It serves as a 
 
 ![Link Autos Ireland NavBar](/docs/images/favicon2.png)
 
+- 404 Page
+
 A 404 page is an error page that appears when a user tries to access a broken link or a page that doesn't exist on a website. It's a common experience for internet users and serves as a way to inform them that the requested content cannot be found. The purpose of a 404 page is to provide the user with a clear indication that the content they are seeking is unavailable and to offer them options for navigation or finding what they are looking for on the website. A well-designed 404 page can provide a better user experience and help minimize frustration for visitors who encounter this error.
 
-- 404 Page
   - Appears when broken links are used or if a page does not exist.
 
 ![Link Autos Ireland NavBar](/docs/images/404%20not%20found.png)
 
 **Home Page**
 
+- Landing page image and text.
+
 A landing page is the first page that a user sees when they visit a website. It often features a striking image and text that is designed to grab the user's attention and convey key information about the website's purpose. In the case of Link Autos Ireland, the landing page features an image of a luxury yet affordable sports car with a dark overlay and a zoom animation upon landing. The accompanying text is a short introduction that summarizes what the website is all about. The dynamic design and animation make the text stand out and encourage the user to read it, which helps to set the tone for the rest of their experience on the site.
 
-- Landing page image and text.
   - This is an image of a luxury but affordable sports car with a dark overlay.
   - There is a zoom affect upon landing on the page.
   - The text is a short introduction of Link Autos Ireland thast sums up what its all about.
@@ -70,9 +75,11 @@ A landing page is the first page that a user sees when they visit a website. It 
 
   ![Link Autos Ireland Landing Page](/docs/images/landing%20page.png)
 
+  - Values section
+
   The values section of the Link Autos Ireland homepage is a crucial part of the website's design and messaging. It briefly summarizes the core values that the company stands by, helping to establish a clear brand identity and connect with potential customers. Each core value is accompanied by a high-quality image that reinforces the message and adds visual interest. The values section is placed directly beneath the landing page, making it easy for visitors to access and understand the company's priorities. By clearly communicating its values, Link Autos Ireland sets itself apart from its competitors and helps to build trust with potential customers.
 
-  - Values section
+  
     - Briefly summerises core values that link autos stands by
     - high quality image to go with each core value section
     - found directly underneath the landing
