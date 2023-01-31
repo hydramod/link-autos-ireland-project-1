@@ -79,10 +79,9 @@ A landing page is the first page that a user sees when they visit a website. It 
 
   The values section of the Link Autos Ireland homepage is a crucial part of the website's design and messaging. It briefly summarizes the core values that the company stands by, helping to establish a clear brand identity and connect with potential customers. Each core value is accompanied by a high-quality image that reinforces the message and adds visual interest. The values section is placed directly beneath the landing page, making it easy for visitors to access and understand the company's priorities. By clearly communicating its values, Link Autos Ireland sets itself apart from its competitors and helps to build trust with potential customers.
 
-  
-    - Briefly summerises core values that link autos stands by
-    - high quality image to go with each core value section
-    - found directly underneath the landing
+  - Briefly summerises core values that link autos stands by
+  - high quality image to go with each core value section
+  - found directly underneath the landing
 
   ![Link Autos Ireland Landing Page](/docs/images/values.png)
 
@@ -125,6 +124,14 @@ The contact page features a full responsive contact form that provides a success
   - forground image of a person using a phone (so the page does not look so empty)
 
 ![Link Autos Ireland Landing Page](/docs/images/contact.png)
+
+# Design
+
+**Wireframes**
+
+Home Page
+
+
 
 
 
