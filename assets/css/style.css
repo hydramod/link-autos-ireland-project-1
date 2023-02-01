@@ -857,6 +857,11 @@ label, .text-white {
         line-height: 1.5;
     }
 
+    .padding-fix {
+        font-size: 2rem;
+        margin-top: 70px;
+    }
+
     .navbar-toggler {
         display: none !important;
     }
