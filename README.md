@@ -260,5 +260,6 @@ The website was built using Visual Studio code and the code was stored on a remo
 
 - Thank you to Gareth McGirr for his guidance and support.
 - Took the zoom animation idea from the [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode) Project.
+- Thank you to chatGPT for finding bugs that took me days to spot, Im sure if it ever gets out of it's cage it will rule us all (nervous laughter)
 - Thank you google for everythin else.
 
