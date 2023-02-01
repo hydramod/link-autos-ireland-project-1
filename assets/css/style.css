@@ -857,10 +857,6 @@ label, .text-white {
         line-height: 1.5;
     }
 
-    .navbar-collapse {
-        display: none;
-    }
-
     .navbar-collapse.collapse {
         display: flex;
     }
