@@ -252,3 +252,14 @@ No CSS errors
 
 ![Link Autos Ireland CSS Validation](/docs/images/css%20validation.png)
 
+# Deployment
+
+The website was built using Visual Studio code and the code was stored on a remote repository on GitHub called "link-autos-ireland-project-1". To make sure the code was properly stored, git commands were used: "git add" was used to add the files to be committed, "git commit" was used to commit the changes to the local repository, and "git push" was used to push the committed code to the remote repository on GitHub. The website was then deployed to GitHub Pages by navigating to the repository's settings, selecting the "Pages" option, choosing the "main" branch as the source, and clicking "Save". The live link to the site can be found at https://hydramod.github.io/link-autos-ireland-project-1/index.html#home. To use the code locally, one can clone the repository from GitHub by copying the HTTPS link, opening an IDE with git installed, and typing "git clone [copied link]" into the terminal.
+
+# Credits
+
+- Thank you to my mentor (Gareth McGirr) for his help and support
+- Took the zoom animation idea from the [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode) Project 
+- Thank you to chatGPT for finding bus that took me days to spot
+- Thank you google for everythin else
+
