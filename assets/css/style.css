@@ -21,7 +21,7 @@ body {
     min-height: 60px;
 }
 
-section {
+section, .section {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;

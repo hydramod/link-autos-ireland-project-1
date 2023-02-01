@@ -50,9 +50,9 @@ A favicon is a small icon that appears on all tabs of a website. It serves as a 
   - Appears on all tabs site wide
   - Allows for easy identification when multiple tabs are open
 
-![Link Autos Ireland NavBar](/docs/images/favicon.png)
+![Link Autos Ireland Favicon](/docs/images/favicon.png)
 
-![Link Autos Ireland NavBar](/docs/images/favicon2.png)
+![Link Autos Ireland Favicon](/docs/images/favicon2.png)
 
 - 404 Page
 
@@ -60,7 +60,7 @@ A 404 page is an error page that appears when a user tries to access a broken li
 
   - Appears when broken links are used or if a page does not exist.
 
-![Link Autos Ireland NavBar](/docs/images/404%20not%20found.png)
+![Link Autos Ireland 404 Page](/docs/images/404%20not%20found.png)
 
 **Home Page**
 
@@ -83,7 +83,7 @@ A landing page is the first page that a user sees when they visit a website. It 
   - high quality image to go with each core value section
   - found directly underneath the landing
 
-![Link Autos Ireland Landing Page](/docs/images/values.png)
+![Link Autos Ireland Landing Page/ Values](/docs/images/values.png)
 
 **Showroom gallery**
 
@@ -96,7 +96,7 @@ The show room gallery has 2 parts:
   - clickable button that directs to related video and information
   - full responsive
 
-![Link Autos Ireland Landing Page](/docs/images/showroom.png)
+![Link Autos Ireland Showroom](/docs/images/showroom.png)
 
 2. The video section, which goes into more detail about the selected car.
   - In depth video review
@@ -105,7 +105,7 @@ The show room gallery has 2 parts:
   - background image of each car with overlay
   - The background image switches according to which car review is being looked at.
 
-![Link Autos Ireland Landing Page](/docs/images/video%20showroom.png)
+![Link Autos Ireland Showroom/Video](/docs/images/video%20showroom.png)
 
 **Contact Page**
 
@@ -117,12 +117,12 @@ The contact page features a full responsive contact form that provides a success
   - failure message, powered by javascript
   - prompts to indicate to the user that there is missing information from the input fields.
 
-![Link Autos Ireland Landing Page](/docs/images/contact%20form%20test.png)
+![Link Autos Ireland Conatct Success](/docs/images/contact%20form%20test.png)
 
   - Background image of dublin with overlay
   - forground image of a person using a phone (so the page does not look so empty)
 
-![Link Autos Ireland Landing Page](/docs/images/contact.png)
+![Link Autos Ireland Contatc form page](/docs/images/contact.png)
 
 # Design
 
@@ -132,21 +132,21 @@ Home Page
 
 ![Link Autos Ireland Landing Page](/docs/images/landing.png)
 
-![Link Autos Ireland Landing Page](/docs/images/valuespage.png)
+![Link Autos Ireland Landing Page/Values](/docs/images/valuespage.png)
 
 Showroom Gallery
 
-![Link Autos Ireland Landing Page](/docs/images/showroompage.png)
+![Link Autos Ireland Showroom Page](/docs/images/showroompage.png)
 
-![Link Autos Ireland Landing Page](/docs/images/video.png)
+![Link Autos Ireland Showroom Page/Videos](/docs/images/video.png)
 
 Contact Page
 
-![Link Autos Ireland Landing Page](/docs/images/contactpage.png)
+![Link Autos Ireland Contact Page](/docs/images/contactpage.png)
 
 404 Page
 
-![Link Autos Ireland Landing Page](/docs/images/404page.png)
+![Link Autos Ireland 404 Page](/docs/images/404page.png)
 
 # Technologies
 
@@ -168,7 +168,7 @@ Contact Page
 The responsiveness of all pages was tested on various screen sizes starting from 320px and above, as per the guidelines of WCAG 2.1 Reflow for responsive design on Chrome, Edge, Firefox, and Opera browsers. The [Website Responsive Test](https://websiteresponsivetest.com/) was used for this purpose, which offered various emulated mobile devices such as Samsung and Apple smartphones with different screen sizes. In addition to this, Google Chrome developer tools was used.
 
 To test:
-1. Open a browser and go to Tacos Travels website.
+1. Open a browser and go to Link Autos Ireland website.
 2. Right-click and select "Inspect" to open the developer tools.
 3. Change the view to "responsive" and decrease the width to 320px.
 4. Set the zoom to 50%.
@@ -181,4 +181,61 @@ Expected Result:
 
 Actual Result:
 - However at 320px the nav bar hamburger menu stop working, made adjustments to css then repeated all above tests.
-- The website performed as expected. 
+- Titels in showroom appear broken at 320px, styling added to fix these
+- Once fixes were applied The website performed as expected.
+
+**Accessability**
+
+The website was tested using the [Wave Accessability Toolt](https://wave.webaim.org/) tool to make sure it met certain accessibility standards. The focus was on ensuring that all forms were easily accessible, with clear labels or descriptions for screen readers. Color contrasts met the minimum requirements set by the WCAG 2.1 Contrast Guidelines, and the headings were in the correct order to properly convey the importance of the content. All the content was organized into sections, so it was easy to navigate with assistive technology. Any non-text content had descriptive text or titles, and the HTML page language was set correctly. The website was also checked to make sure that the Aria properties were used correctly and that it followed the best coding practices for WCAG 2.1.
+
+Home Page/Landing Page
+
+![Link Autos Ireland Landing Page Accessability Test Result](/docs/images/acessability%20home.png)
+
+- No Errors or Warnings
+
+Showroom Page
+
+![Link Autos Ireland Showroom Page Accessability Test Result](/docs/images/acessability%20showroom.png)
+
+- The inclusion of a YouTube video on the website triggered a warning, however it is a minor issue.
+
+Contact Page
+
+![Link Autos Ireland Contact Page Accessability Test Result](/docs/images/accessability%20contact.png)
+
+- The contrast of the website was flagged as an error during accessibility testing, but it was difficult to find color combinations that were not too dark and would fit with the design of the website. The color was eventually changed to a dark red, which still flagged an error, but it provides good visual contrast.
+
+**Lighthouse Test**
+
+Overall the website performed very well in lighthouse tests.
+
+Home Page/Landing Page
+
+![Link Autos Ireland Home Page/Landing Page Lighthouse Test Result](/docs/images/lighthouse%20home.png)
+
+Showroom Page
+
+![Link Autos Ireland Showroom Page Lighthouse Test Result](/docs/images/lighthouse%20showroom.png)
+
+Contact Page
+
+![Link Autos Ireland Contact Page Lighthouse Test Result](/docs/images/lighthouse%20contact.png)
+
+**Weblink Test**
+
+Testing was done to make sure that all the navigation links on the website were working correctly and directing to the right pages. This was tested by clicking on the links on each page and also by using a [Link Analysis Tool](https://smallseotools.com/website-link-analyzer-tool/).
+
+![Link Autos Ireland Navigation Link Test Result 1](/docs/images/web%20link%20tests%20graph.png)
+
+![Link Autos Ireland Navigation Link Test Result 2](/docs/images/web%20link%20tests.png)
+
+**Form Test**
+
+Form functions as expected with the appropriate required flags being presented when a field is not filled in and the appropriate success message upon successful submission
+
+![Link Autos Ireland Conatct Success](/docs/images/contact%20form%20test.png)
+
+![Link Autos Ireland Conatct Success](/docs/images/required%20field%20test.png)
+
+
