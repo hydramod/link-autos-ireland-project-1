@@ -161,6 +161,23 @@ Contact Page
 - Favicon files generated using Favicon.io
 - Wireframes designed using Balsamiq
 
+# Testing
 
+**Responsiveness**
 
+The responsiveness of all pages was tested on various screen sizes starting from 320px and above, as per the guidelines of WCAG 2.1 Reflow for responsive design on Chrome, Edge, Firefox, and Opera browsers. The [Website Responsive Test](https://websiteresponsivetest.com/) was used for this purpose, which offered various emulated mobile devices such as Samsung and Apple smartphones with different screen sizes. In addition to this, Google Chrome developer tools was used.
 
+To test:
+1. Open a browser and go to Tacos Travels website.
+2. Right-click and select "Inspect" to open the developer tools.
+3. Change the view to "responsive" and decrease the width to 320px.
+4. Set the zoom to 50%.
+5. Increase the width of the responsive window to its maximum.
+
+Expected Result:
+- The website should be responsive on all screen sizes, with no stretched or pixelated images.
+- There should be no horizontal scrolling.
+- No elements should overlap.
+
+Actual Result:
+- The website performed as expected.

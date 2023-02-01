@@ -942,6 +942,14 @@ label, .text-white {
     .contact-form .section-button .button {
         width: 40%;
     }
+
+    .navbar-collapse {
+        display: none;
+      }
+      
+      .navbar-collapse.collapse {
+        display: flex;
+      }
 }
 
 @media screen and (max-width: 991px) {
