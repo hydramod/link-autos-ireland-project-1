@@ -73,7 +73,7 @@ A landing page is the first page that a user sees when they visit a website. It 
   - The text is a short introduction of Link Autos Ireland thast sums up what its all about.
   - It grabs your attention immediately and the text is made a subject of importance to read as a result of the zoom animation.
 
-  ![Link Autos Ireland Landing Page](/docs/images/landing%20page.png)
+![Link Autos Ireland Landing Page](/docs/images/landing%20page.png)
 
   - Values section
 
@@ -83,7 +83,7 @@ A landing page is the first page that a user sees when they visit a website. It 
   - high quality image to go with each core value section
   - found directly underneath the landing
 
-  ![Link Autos Ireland Landing Page](/docs/images/values.png)
+![Link Autos Ireland Landing Page](/docs/images/values.png)
 
 **Showroom gallery**
 
@@ -118,7 +118,6 @@ The contact page features a full responsive contact form that provides a success
   - prompts to indicate to the user that there is missing information from the input fields.
 
 ![Link Autos Ireland Landing Page](/docs/images/contact%20form%20test.png)
-
 
   - Background image of dublin with overlay
   - forground image of a person using a phone (so the page does not look so empty)
