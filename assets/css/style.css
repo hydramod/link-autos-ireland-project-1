@@ -857,6 +857,15 @@ label, .text-white {
         line-height: 1.5;
     }
 
+    .navbar-toggler {
+        display: none !important;
+    }
+
+    .navbar-collapse {
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
     .navbar-collapse {
         display: block !important;
     }
