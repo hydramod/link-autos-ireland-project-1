@@ -856,6 +856,14 @@ label, .text-white {
         font-size: 1.5rem;
         line-height: 1.5;
     }
+
+    .navbar-collapse {
+        display: none;
+    }
+
+    .navbar-collapse.collapse {
+        display: flex;
+    }
 }
 
 @media screen and (min-width: 576px) {
@@ -943,13 +951,6 @@ label, .text-white {
         width: 40%;
     }
 
-    .navbar-collapse {
-        display: none;
-      }
-      
-      .navbar-collapse.collapse {
-        display: flex;
-      }
 }
 
 @media screen and (max-width: 991px) {

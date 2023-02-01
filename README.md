@@ -180,4 +180,5 @@ Expected Result:
 - No elements should overlap.
 
 Actual Result:
-- The website performed as expected.
+- However at 320px the nav bar hamburger menu stop working, made adjustments to css then repeated all above tests.
+- The website performed as expected. 
