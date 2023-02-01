@@ -131,8 +131,36 @@ The contact page features a full responsive contact form that provides a success
 
 Home Page
 
+![Link Autos Ireland Landing Page](/docs/images/landing.png)
 
+![Link Autos Ireland Landing Page](/docs/images/valuespage.png)
 
+Showroom Gallery
+
+![Link Autos Ireland Landing Page](/docs/images/showroompage.png)
+
+![Link Autos Ireland Landing Page](/docs/images/video.png)
+
+Contact Page
+
+![Link Autos Ireland Landing Page](/docs/images/contactpage.png)
+
+404 Page
+
+![Link Autos Ireland Landing Page](/docs/images/404page.png)
+
+# Technologies
+
+- HTML used for website structure
+- CSS for custom styling
+- Javascript for functionality
+- Developed using Visual Studio Code IDE
+- Source code hosted on GitHub, deployed with Git Pages
+- Git used for code management
+- Social media links in footer created with icons from Font Awesome
+- Images optimized using Tinyjpg
+- Favicon files generated using Favicon.io
+- Wireframes designed using Balsamiq
 
 
 
