@@ -1,3 +1,5 @@
+/*Styling common elements*/
+
 body {
     z-index: 0;
     overflow-x: hidden;
@@ -12,6 +14,18 @@ body {
     text-align: left;
     background-color: black;
     display: block;
+}
+
+.overlay {
+    background-color: black;
+    bottom: 0;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    pointer-events: none;
 }
 
 .top {
@@ -50,6 +64,8 @@ iframe,
 .video-block iframe {
     width: 100%
 }
+
+/*Styling Nav Bar*/
 
 .top nav.navbar,
 .navbar-dropdown.navbar-fixed-top,
@@ -289,13 +305,7 @@ input {
     text-align: center;
 }
 
-.intro-home {
-    background-image: url("../images/home-background.webp");
-    background-attachment: fixed;
-    animation-name: home-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
+/*Styling 404 page*/
 
 .notfound {
     background-image: url("../images/404-lost.webp");
@@ -307,6 +317,16 @@ input {
 
 .notfound a:hover {
     color: red !important;
+}
+
+/* Style Landing Page/Home Page*/
+
+.intro-home {
+    background-image: url("../images/home-background.webp");
+    background-attachment: fixed;
+    animation-name: home-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes home-zoom {
@@ -332,18 +352,6 @@ input {
 
 .fullscreen .overlay {
     min-height: 100vh;
-}
-
-.overlay {
-    background-color: black;
-    bottom: 0;
-    left: 0;
-    opacity: 0.6;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 0;
-    pointer-events: none;
 }
 
 .align-center {
@@ -470,6 +478,8 @@ p {
     margin-top: 0;
     margin-bottom: 1rem;
 }
+
+/* Styling Showroom*/
 
 .showroom {
     scroll-margin-top: 10px;
@@ -663,6 +673,8 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
     flex-direction: row-reverse;
 }
 
+/* Styling contact page*/
+
 .contact-form {
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -773,6 +785,8 @@ label, .text-white {
     border-radius: 5px;
 }
 
+/*Style Footer*/
+
 .footer {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -850,6 +864,8 @@ label, .text-white {
 .footer .media-container-row .copyright p {
     width: 100%;
 }
+
+/*Adding responsiveness for various elements throughout site*/
 
 @media screen and (max-width: 320px) {
     .font-format-4 {
